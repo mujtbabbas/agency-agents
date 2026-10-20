@@ -16,6 +16,20 @@
 
 ---
 
+## About This Standalone Edition
+
+- **Main repository:** [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+- **Based on version:** upstream commit `4e3ac3ca6604c75113f52c695dbddcc7af928b46` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-19)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the agent definitions and docs (upstream check/lint/install workflows kept as-is)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to msitarzewski and the upstream contributors (AgentLand Contributors). Licence is preserved unchanged — see `LICENSE` (MIT). This edition adds the enhancements listed above only.
+
 ## 🚀 What Is This?
 
 Born from a Reddit thread and months of iteration, **The Agency** is a growing collection of meticulously crafted AI agent personalities. Each agent is:
